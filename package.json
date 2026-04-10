@@ -1,0 +1,14 @@
+{
+  "name": "tibber-api-integration",
+  "version": "1.0.0",
+  "description": "Tibber API Integration - Strompreise, Verbrauch und mehr",
+  "type": "module",
+  "scripts": {
+    "info": "node examples/basic_info.js",
+    "prices": "node examples/prices.js",
+    "consumption": "node examples/consumption.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0"
+  }
+}

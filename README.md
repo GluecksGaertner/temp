@@ -64,12 +64,12 @@ Echtzeit-Daten via WebSocket-Subscription (benötigt Tibber Pulse Hardware).
 
 ```
 ├── README.md               # Diese Dokumentation
-├── requirements.txt        # Python-Abhängigkeiten
-├── tibber_api.py           # Hauptmodul -- Tibber API Client
+├── package.json            # Node.js Abhängigkeiten
+├── tibber-api.js           # Hauptmodul -- Tibber API Client
 ├── examples/
-│   ├── basic_info.py       # Beispiel: Basis-Informationen abrufen
-│   ├── prices.py           # Beispiel: Strompreise anzeigen
-│   └── consumption.py      # Beispiel: Verbrauchsdaten abrufen
+│   ├── basic_info.js       # Beispiel: Basis-Informationen abrufen
+│   ├── prices.js           # Beispiel: Strompreise anzeigen
+│   └── consumption.js      # Beispiel: Verbrauchsdaten abrufen
 └── .env.example            # Vorlage für Umgebungsvariablen
 ```
 
@@ -77,15 +77,15 @@ Echtzeit-Daten via WebSocket-Subscription (benötigt Tibber Pulse Hardware).
 
 ```bash
 # 1. Abhängigkeiten installieren
-pip install -r requirements.txt
+npm install
 
 # 2. .env-Datei erstellen (oder Demo-Token verwenden)
 cp .env.example .env
 
 # 3. Beispiele ausführen
-python examples/basic_info.py
-python examples/prices.py
-python examples/consumption.py
+node examples/basic_info.js
+node examples/prices.js
+node examples/consumption.js
 ```
 
 ## Lizenz
