@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "google-maps": {
+      "command": "node",
+      "args": ["./dist/index.js"],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "${GOOGLE_MAPS_API_KEY}",
+        "DEFAULT_LANGUAGE": "de",
+        "DEFAULT_REGION": "de"
+      }
+    }
+  }
+}
